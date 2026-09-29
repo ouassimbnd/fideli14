@@ -1,0 +1,26 @@
+{
+  "name": "fideli-v6-supabase-mvp",
+  "version": "6.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "jose": "^6.2.12",
+    "next": "^15.5.26",
+    "passkit-generator": "^3.6.1",
+    "qrcode.react": "4.2.0",
+    "react": "^19.1.2",
+    "react-dom": "^19.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.2"
+  }
+}

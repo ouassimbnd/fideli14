@@ -1,0 +1,24 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.fideli.loyalty",
+  "teamIdentifier": "TEAMIDENTIFIER",
+  "organizationName": "Fideli",
+  "description": "Carte de fidélité Fideli",
+  "backgroundColor": "rgb(34,67,59)",
+  "foregroundColor": "rgb(255,255,255)",
+  "labelColor": "rgb(207,232,180)",
+  "sharingProhibited": true,
+  "storeCard": {
+    "headerFields": [],
+    "primaryFields": [],
+    "secondaryFields": [],
+    "auxiliaryFields": [],
+    "backFields": [
+      {
+        "key": "about",
+        "label": "À PROPOS",
+        "value": "Cette carte est gérée par le commerçant via Fideli. Vos points sont mis à jour à chaque visite validée en caisse."
+      }
+    ]
+  }
+}
